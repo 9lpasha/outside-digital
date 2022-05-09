@@ -1,0 +1,31 @@
+@import "../fonts.css";
+
+.StartButton{
+    width: 198px;
+    height: 56px;
+    left: 621px;
+    top: 372px;
+
+    /* White */
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 44px #CFDAE7);
+    border-radius: 6px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.StartButton:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}

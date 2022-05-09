@@ -7,7 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html { width:100vw; overflow-x:hidden; }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#root{
+  width: 100%;
+  min-height: 100vh;
 }

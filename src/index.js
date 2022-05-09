@@ -2,16 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+let rerendering = () => {
+    ReactDOM.render(
+    <React.StrictMode>
+      <App/>
+    </React.StrictMode>,
+    document.getElementById('root')
+    );
+    let hei = "calc(100vh)"
+    if(window.innerWidth <= 480)
+        hei = window.innerHeight + 'px'
+    document.body.style.minHeight = hei
+    document.getElementById('root').style.minHeight = hei
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+rerendering()
+export let observer = () => {
+    rerendering()
+}

@@ -1,0 +1,159 @@
+.Tax{
+    width: 552px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 30px;
+    padding: 32px;
+}
+
+.titleText{
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description{
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 24px;
+}
+
+.inputZP{
+
+}
+
+.inputZPtext{
+    margin-bottom: 8px;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.inputZPinput{
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    border: 1px solid #DFE3E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px 10px;
+    margin-bottom: 2px;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.inputZPinput::-webkit-input-placeholder {color: #BEC5CC;}
+.inputZPinput:-moz-placeholder {color: #BEC5CC;}
+
+.inputZPinput:hover {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.inputZPinput:focus {
+    outline: none;
+}
+
+.calculateButton{
+    color: #EA0029;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.calculateButton:hover{
+    cursor: pointer;
+    color: #F53A31;
+}
+
+.twoButtons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+.twoButtonsText {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.close{
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+@media (max-width: 1024px) {
+    .Tax{
+        max-width: 453px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Tax{
+        border-radius: 0;
+        min-height: calc(100vh - 32px);
+        position: relative;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .App, body, #root{
+        min-height: 100vh;
+    }
+
+    .twoButtons{
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+
+    .LowerButton{
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+        width: calc(100% - 32px);
+    }
+    .close{
+        cursor: pointer;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.flex2buttons{
+    display: flex;
+}
+
+.twoButtonsText{
+    margin-right: 32px;
+    margin-bottom: 24px;
+}

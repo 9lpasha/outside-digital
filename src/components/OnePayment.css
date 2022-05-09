@@ -1,0 +1,43 @@
+.checkbox>div{
+    display: inline-block;
+}
+
+.checkbox{
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.checkboxMoney{
+    margin-left: 12px;
+    margin-right: 4px;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.checkboxYear{
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.checkboxQuadro{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid #DFE3E6;
+}
+
+.checkboxQuadro:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}

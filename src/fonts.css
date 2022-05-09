@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Lab Grotesque";
+    src: url("./fonts/LabGrotesqueBold.eot");
+    src: url("./fonts/LabGrotesqueBold.woff")format('woff'),
+    url("./fonts/LabGrotesqueBold.svg") format("svg"),
+    url("./fonts/LabGrotesqueBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Lab Grotesque";
+    src: url("./fonts/LabGrotesqueMedium.eot");
+    src: url("./fonts/LabGrotesqueMedium.woff")format('woff'),
+    url("./fonts/LabGrotesqueMedium.svg") format("svg"),
+    url("./fonts/LabGrotesqueMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Lab Grotesque";
+    src: url("./fonts/LabGrotesqueRegular.eot");
+    src: url("./fonts/LabGrotesqueRegular.woff")format('woff'),
+    url("./fonts/LabGrotesqueRegular.svg") format("svg"),
+    url("./fonts/LabGrotesqueRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Lab Grotesque";
+    src: url("./fonts/LabGrotesqueLight.eot");
+    src: url("./fonts/LabGrotesqueLight.woff")format('woff'),
+    url("./fonts/LabGrotesqueLight.svg") format("svg"),
+    url("./fonts/LabGrotesqueLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
